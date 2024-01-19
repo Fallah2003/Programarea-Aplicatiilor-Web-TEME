@@ -1,0 +1,29 @@
+#todoApp {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #tasks {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .task span {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  .task button {
+    margin-left: 10px;
+  }
+  

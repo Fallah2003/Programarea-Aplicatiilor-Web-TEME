@@ -1,0 +1,27 @@
+#slider-container {
+    max-width: 600px;
+    margin: 20px auto;
+    position: relative;
+  }
+  
+  .slider-img {
+    width: 100%;
+    display: none;
+  }
+  
+  #prevBtn, #nextBtn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  #prevBtn {
+    left: 10px;
+  }
+  
+  #nextBtn {
+    right: 10px;
+  }
+  

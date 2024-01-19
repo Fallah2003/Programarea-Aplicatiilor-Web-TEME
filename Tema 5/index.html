@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Notes App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div id="app">
+        <div id="notes-list">
+            <h2>Notes</h2>
+            <ul id="notes"></ul>
+        </div>
+        <div id="note-editor">
+            <h2>Edit Note</h2>
+            <textarea id="note-text" placeholder="Write your note here..."></textarea>
+            <div id="editor-buttons">
+                <button id="save-btn">Save</button>
+                <button id="delete-btn">Delete</button>
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
